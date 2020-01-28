@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get "/", controller: "application", action: "home"
+
   get("/flexible/square/:the_number", { :controller => "application", :action => "flex_square" })
   
   get("/flexible/square_root/:the_number", { :controller => "application", :action => "flex_square_root" })

@@ -1,5 +1,9 @@
 class ApplicationController < ActionController::Base
 
+  def home
+    render({ :template =>"application/home"})
+  end
+
   def flex_square
     number = params.fetch("the_number").to_i
     result = {}
