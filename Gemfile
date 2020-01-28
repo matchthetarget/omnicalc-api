@@ -75,14 +75,3 @@ end
 
 gem 'devise'
 gem 'activeadmin', '2.2.0'
-group :development, :test do
-end
-
-group :development do
-end
-
-group :test do
-end
-
-group :production do
-end
